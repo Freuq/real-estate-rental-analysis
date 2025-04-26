@@ -1,8 +1,0 @@
-{
-    "type": "FeatureCollection",
-    "features": [
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Ciutat Vella",
-                "cartodb_id": 
