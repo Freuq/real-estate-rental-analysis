@@ -24,7 +24,7 @@ Result: Automation of the data upload and download process.
 Challenges: Determine the significant variables for the analysis. Generate demonstrative graphs.
 Resolutions: Heatmap by district to visualize the correlation of variables. Generation of the *cumulative correlation* function.
 Result: The significant variables are rental_cost, dimension, rooms, bathrooms.
-## 5. 🎨Visualizations of Interest
+## 5. 📌Visualizations of Interest
 ### 5.1 🗺️Choropleth
 Challenges: Generation of centroids through .json, Tooltip with custom barplots.
 Resolutions: Introduction of the €/m² column. Use of the Geopandas library for centroids. Generation of barplots for Tooltip. Using HTML for Tooltips.
@@ -34,12 +34,12 @@ Challenges: Most common rentals by city, histograms with numerical variables, hi
 Resolutions: Histograms for each variable, binning for numerical variables, creating histograms based on data percentages rather than counts.
 Conclusion: The most common rental property would be the one with the highest percentage for each barplot.
 ## 6. 💡 Statistical Conclusions
-### 6.1 **ANOVA**
+### 6.1 🧠ANOVA
 The ANOVA test was performed for the analysis of districts (each city) and for the set of cities (three cities). The following results were obtained (for the three cities):
 - F statistic: 28.53, indicating high variability between cities.
 - p-value: ~0 (2.28e-48), rejecting the null hypothesis.
 - Conclusion: Location (city and district) significantly affects rental prices.
-### 6.2 **MWU**
+### 6.2 🧮Mann-Whitney U
 It was observed that there is a relationship between the publication date and the proportion of listings, with the proportion decreasing almost entirely in less than 100 days. Therefore, a t-test was performed, and since the test was not met, the Mann-Whitney U test was used, yielding the following results:
 - MWU test: 4383461.0, p-value: 0.0003895436424678453.
 - The null hypothesis μ_with_reduction ≠ is rejected. μ_without_reduction.
