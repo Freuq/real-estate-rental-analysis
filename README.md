@@ -6,7 +6,7 @@ Here, the cities are discussed both individually and collectively to understand 
 ### 🗃️ Data Used
 The data was obtained through web scraping but anonymized for educational purposes. There are more than 7,000 rental listings across the three cities. For security reasons, the website used is not mentioned.
 ### 👾Resources Used
-The entire project was developed in Python, using the following libraries: 🍵BeautifulSoup, 🚗Selenium, 📡Requests, ⏰time, 📊tqdm, 🧮NumPy, 🐼Pandas, 📅Datetime, 🎲Random, ➕Math, 🔍Re, 📈matplotlib, 🌊seaborn, 🍃folium, 🗺️geopandas, and 🔄base64.
+The entire project was developed in Python, using the following libraries: 🍵BeautifulSoup, 🚗Selenium, 📡Requests, ⏰time, 📊tqdm, 🧮NumPy, 🐼Pandas, 📅Datetime, 🎲Random, ➕Math, 🧪Scipy, 🔍Re, 📈matplotlib, 🌊seaborn, 🍃folium, 🗺️geopandas, and 🔄base64.
 In addition to parts of the code in *JavaScript* and *HTML*, as this was necessary for part of the scraping and visualization of the choropleths.
 ## 1. 🕸️Complex Web Scraping
 Challenges: The website detected and interrupted the search with Selenium, as it detected us as bots. The website loaded data as the user scrolled. A popup suddenly appeared in the middle of the screen while scraping was being performed.
